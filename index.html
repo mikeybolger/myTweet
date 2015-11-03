@@ -1,0 +1,21 @@
+<!doctype html>
+<html>
+	<head>
+		<title>myTweet</title>
+		<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.0/angular.min.js"></script>
+		<script src="javascript/myTweetApp.js>"></script>
+	</head>
+	<body ng-app="myTweet">
+		<div id="main">
+			<form>
+				<input type="text" placeholder="Input name"/>
+				<textarea required maxLength="200" rows="3" placeholder="Input Text"></textarea>
+				<input class="button" type="submit" value="myTweet"/>
+			</form>
+			<div id="post-stream">
+				<h4>myTweet Feed</h4>
+					<--to be populated by angular-->
+			</div>
+		</div>
+	</body>
+</html>
